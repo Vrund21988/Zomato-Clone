@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-image:url(top-view-fast-food-mix-mozzarella-sticks-club-sandwich-hamburger-mushroom-pizza-caesar-shrimp-salad-french-fries-ketchup-mayo-cheese-sauces-table.jpg) ;
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+.home{
+    height: 100vh;
+    display: grid;
+    place-items:center;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+}
+.detail{
+    border: 10px double black;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: x-large;
+    background-color: silver;
+    color: yellow;
+}
+
+.data{
+    background-image:url(image.png) ;
+   background-size:100%;
+    background-repeat: no-repeat;
+}   
+.d1{
+    display: grid;
+    place-items:center;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    color: black;
+    padding-top:300px;
+    padding-bottom: 0px;
+    margin: 0;
+    color: red;
+}
+.d2{
+    display: grid;
+    place-items: inherit;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 200;
+    color: black;
+    padding-top: 0;
+    padding-bottom:0;
+    margin: 0;
+}
+.data2{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: gold;
+    font-style: italic bold ;
+    font-size:large;
+    height: 500px;
+     position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.data2one{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: x-large;
+}
+.data2two{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: x-large;
+}.data2three{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: x-large;
+}.data2four{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
+    font-size: x-large;
+}
+ /* .data2 {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Top curve */
+/* .data2::before {
+    content: "";
+    position: absolute;
+    top: -100px;
+    left: -5%;
+    width: 110%;
+    height: 200px;
+    background: white;
+    border-radius: 50%;
+} */
+
+/* Bottom curve */
+/* .data2::after {
+    content: "";
+    position: absolute;
+    bottom: -100px;
+    left: -5%;
+    width: 110%;
+    height: 200px;
+    background: white;
+    border-radius: 50%;
+} */ */
+.btn1{
+    background-color: white;
+    color: yellow;
+    font-style: italic;
+    text-align: center;
+    place-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5pxs;
+    font-size: x-large;
+    border: 2px solid gold;
+}
+.btn2 img{
+    height: 80px;
+    width: 250px;
+}
+.eternal{
+    text-align: center;
+    align-items: center;
+    place-items: center;
+    font-size: xx-large;
+    font-style: bold  italic;
+}
+.power{
+   text-align: center;
+    align-items: center;
+    place-items: center;
+    font-size: large; 
+}
+.card{
+    display: flex;
+    /* gap:30px;*/
+    justify-content: space-around;
+    padding:5px 7px;
+     background-image:url(istockphoto-505055278-612x612.jpg) ;
+    margin-top: 10px;
+    border: 5px white solid;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+}
+.b1{
+    background-color: aqua;
+    height: 350px;
+    width: 270px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    border: 4px  solid white;
+    box-shadow: 13px 3px rgb(140, 116, 116);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.b1 img{
+    height: 100px;
+    width: 120px;
+    border-radius: 20px;
+}
+.btn3{
+    background-color: red;
+    padding: 20px;
+    color: bisque;
+    border-radius: 20px;
+    border: none;
+}
+.btn4{
+    background-color: red;
+    padding: 20px;
+    color: bisque;
+    border-radius: 20px;
+    border: none;
+}
+.btn5{
+    background-color: red;
+    padding: 20px;
+    color: bisque;
+    border-radius: 20px;
+    border: none;
+}
+.btn6{
+    background-color: red;
+    padding: 20px;
+    color: bisque;
+    border-radius: 20px;
+    border: none;
+}
+.lastpage {
+    background-color: black;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.ZOMATO{
+    align-items: flex-start;
+    font-size: larger;
+    justify-content: left;
+    justify-self: left;
+    color:white;
+}
+.lastpage2line{
+    display: flex;
+    color: white;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.Eternal2{
+     align-items: flex-start;
+    font-size: larger;
+    justify-content: left;
+    justify-self: left;
+    color:silver;
+    margin-top: 30px;
+}
+.Restaurants{
+     align-items: flex-start;
+    font-size: larger;
+    justify-content: left;
+    justify-self: left;
+    color:silver;
+    margin-top: 10px;
+    margin-left: 2px;
+    margin-top: 30px;
+}
+.Delivery{
+    align-items: flex-start;
+    font-size: larger;
+    justify-content: left;
+    justify-self: left;
+    color:silver;
+    margin-top: 10px;
+    margin-left: 2px; 
+    margin-top: 30px;
+}
+.Learn{
+     align-items: flex-start;
+    font-size: larger;
+    justify-content: left;
+    justify-self: left;
+    color:silver;
+    margin-top: 10px;
+    margin-left: 2px;
+    margin-top: 30px;
+}
+.SocialLinks{
+    margin-top: 50px;
+}
+.Social-links{
+    color: white;
+    margin: 30px;
+    font-size: x-large;
+}
